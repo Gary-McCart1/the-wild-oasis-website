@@ -1,6 +1,6 @@
 import { updateBooking } from "@/app/_lib/actions";
 import {getBooking, getCabin} from "@/app/_lib/data-service";
-import SubmitButto from "../../../../_components/SubmitButton"
+import SubmitButton from "../../../../_components/SubmitButton";
 
 export default async function Page({params}) {
 
